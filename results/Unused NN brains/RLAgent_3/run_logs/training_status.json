@@ -1,0 +1,24 @@
+{
+    "RLAgent": {
+        "checkpoints": [
+            {
+                "steps": 41575,
+                "file_path": "results\\RLAgent_3\\RLAgent\\RLAgent-41575.onnx",
+                "reward": 0.10000000273187955,
+                "creation_time": 1619373898.7958484
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 41575,
+            "file_path": "results\\RLAgent_3\\RLAgent.onnx",
+            "reward": 0.10000000273187955,
+            "creation_time": 1619373898.7958484
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

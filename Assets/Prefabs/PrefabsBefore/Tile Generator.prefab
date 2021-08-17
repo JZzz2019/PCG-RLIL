@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1167773397263653178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167773397263653179}
+  - component: {fileID: 1167773397263653125}
+  - component: {fileID: 1167773397263653124}
+  m_Layer: 0
+  m_Name: Tile Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167773397263653179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167773397263653178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1167773397263653125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167773397263653178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11796bf6de79b344add05fc743a93b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KeyNum: 0
+  PlayerNum: 0
+  WallNum: 0
+  DoorNum: 0
+  GroundNum: 0
+  items:
+  - {fileID: 8466339243335994751, guid: 6ce6e0582f4e5e34bb4d17788d45a7a0, type: 3}
+  - {fileID: 7558662263761553321, guid: dc38b03e316a9a84cad78374dd8ecf47, type: 3}
+  - {fileID: 5213918270771385964, guid: 60ffee23d2e09954ca258bb68062a537, type: 3}
+  - {fileID: 4936012538149453671, guid: d14de0157d99afd42aa2640da50c0c01, type: 3}
+  - {fileID: 6469291970087292733, guid: bab8b462de6f875489a8838061f9ae1d, type: 3}
+  parent: {fileID: 0}
+  Frame: {fileID: 0}
+  GridX: 5
+  GridY: 5
+  NarrowMethod: 1
+  TurtleMethod: 0
+  WideMethod: 0
+  outline: 0
+  StoredObjects: []
+  AllPositions: []
+--- !u!114 &1167773397263653124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167773397263653178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ae9a93b10ec7241bd8a8abfc4d01b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

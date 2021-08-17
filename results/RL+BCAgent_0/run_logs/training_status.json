@@ -1,0 +1,24 @@
+{
+    "RL+BCAgent": {
+        "checkpoints": [
+            {
+                "steps": 195494,
+                "file_path": "results\\RL+BCAgent_0\\RL+BCAgent\\RL+BCAgent-195494.onnx",
+                "reward": 1.1565465927124023,
+                "creation_time": 1619404668.6186085
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 195494,
+            "file_path": "results\\RL+BCAgent_0\\RL+BCAgent.onnx",
+            "reward": 1.1565465927124023,
+            "creation_time": 1619404668.6186085
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
